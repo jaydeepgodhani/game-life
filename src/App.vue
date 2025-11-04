@@ -2,10 +2,7 @@
 
 <template>
   <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <p><button class="px-4 py-2 border-2 black">START</button></p>
 </template>
 
 <style scoped></style>
