@@ -1,1 +1,15 @@
 @import 'tailwindcss';
+
+@font-face {
+  font-family: "Quattro";
+  src: url("public/fonts/quattro.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Quattro", sans-serif;
+  overscroll-behavior: none;
+  overflow: scroll;
+}

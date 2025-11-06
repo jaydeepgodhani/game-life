@@ -26,7 +26,7 @@ function handleClick(row, col) {
 
 <template>
   <span
-    class="h-[1rem] w-[1rem] outline-1 flex items-center justify-center"
+    class="h-[1rem] w-[1rem] outline-1 flex items-center justify-center transition duration-200"
     :style="{ backgroundColor: props.value === 0 ? 'white' : 'orange' }"
     @click="handleClick(props.row, props.col)"
   >
