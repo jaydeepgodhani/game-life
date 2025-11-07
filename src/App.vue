@@ -73,7 +73,6 @@ function handleStart() {
     clearInterval(timer)
     timer = null
     isStart.value = false
-    grid.value = createGrid(size)
   } else {
     if (!timer) {
       timer = setInterval(() => {
