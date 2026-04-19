@@ -1,5 +1,5 @@
 ## Description
-Load pokemons on scroll. Infinite scroll until pokemon list is reached. Each pokemon card is clickable which display pokemon's power and stats.
+John Conway's Game of Life. No intro needed. Cellular Automation based on birth, death and survival.
 
 ## Technology
 vuejs, vite, tailwindcss
